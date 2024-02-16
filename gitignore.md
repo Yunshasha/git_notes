@@ -1,4 +1,4 @@
-### create .gitignore file
+### Create .gitignore file
 
 #### Step 1: create a '.gitignore' file
 
