@@ -6,7 +6,7 @@
 touch .gitignore
 ```
 
-#### step 2: edit '.gitignore' file
+#### Step 2: edit '.gitignore' file
 
 ```
 # Dependency directories
@@ -38,16 +38,16 @@ yarn-debug.log*
 yarn-error.log*
 ```
 
-#### step 3: save and close
+#### Step 3: save and close
 
-#### step 4: add and commit it to you repo
+#### Step 4: add and commit it to you repo
 
 ```
 git add .gitignore
 git commit -m "Add .gitignore"
 ```
 
-#### step 5: push changes to remote repo
+#### Step 5: push changes to remote repo
 
 ```
 git push
