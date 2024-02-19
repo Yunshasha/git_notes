@@ -2,34 +2,34 @@
 
 ### 1st You alreay have local project
 
-**you have a project in local and you want to upload all into your cloud**
+_you have a project in local and you want to upload all into your cloud_
 <br/>
 
-#### First,cd to your project path
+#### a),cd to your project path
 
 ```
 cd path/to/your/project
 ```
 
-#### Second, Initialize a git repo
+#### b), Initialize a git repo
 
 ```
 git init
 ```
 
-#### Third, Add the files you want to update
+#### c), Add the files you want to update
 
 ```
 git add . // in this case, add all
 ```
 
-#### Fourth, Commit the files
+#### d), Commit the files
 
 ```
 git commit -m "Initial commit"
 ```
 
-#### Fifth, Add a remote repo
+#### e), Add a remote repo
 
 ```
 git remote add origin <repository_URL>
@@ -47,10 +47,39 @@ git remote add origin <remote_repository_url>
 git remote set-url origin <new_remote_repository_url>
 ```
 
-#### Final, Push to your remote cloud
+#### f), Push to your remote cloud
 
 ```
 git push -u origin main
+
 # sometimes you can't push, try
 git push -f orgin main
+```
+
+### 2nd, You haven't create project yet
+
+_In this case, you don't have you project yet, but you want to link to remote repo and upload new commit after every edit_
+
+#### a), Use clone repo to have a project in local
+
+```
+git clone <remote_repo_URL>
+```
+
+#### b), Add the files you want to update
+
+```
+git add . // in this case, add all
+```
+
+#### c), Commit the files
+
+```
+git commit -m "Initial commit"
+```
+
+#### d), Push to your remote clould
+
+```
+git push
 ```
