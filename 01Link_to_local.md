@@ -1,11 +1,11 @@
 ## The basic proceduce How to link your project
 
-### 1st You alreay have local project
+### -1st You alreay have local project
 
 _you have a project in local and you want to upload all into your cloud_
 <br/>
 
-#### a),cd to your project path
+#### a), cd to your project path
 
 ```
 cd path/to/your/project
@@ -35,7 +35,7 @@ git commit -m "Initial commit"
 git remote add origin <repository_URL>
 ```
 
-**if you dont have origin**
+_if you dont have origin_
 
 ```
 git remote -v // check if you have orgin
@@ -56,7 +56,7 @@ git push -u origin main
 git push -f orgin main
 ```
 
-### 2nd, You haven't create project yet
+### -2nd You haven't create project yet
 
 _In this case, you don't have you project yet, but you want to link to remote repo and upload new commit after every edit_
 
