@@ -1,6 +1,7 @@
-## The basic proceduce How to link your project
+## The basic proceduce <br>   ---  *How to link your project*
+<br />
 
-### -1st You alreay have local project
+### 1st You alreay have local project
 
 _you have a project in local and you want to upload all into your cloud_
 <br/>
@@ -56,7 +57,7 @@ git push -u origin main
 git push -f orgin main
 ```
 
-### -2nd You haven't create project yet
+### 2nd You haven't create project yet
 
 _In this case, you don't have you project yet, but you want to link to remote repo and upload new commit after every edit_
 
