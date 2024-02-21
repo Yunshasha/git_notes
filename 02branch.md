@@ -28,6 +28,9 @@ git checkout -b <branch-name>
 ### merge the branch
 
 ```
-########## merge now branch to <main>
-git merge main
+########## switch to the main branch
+git checkout main
+
+########## merge current branch to <main>
+git merge <current-branch>
 ```
