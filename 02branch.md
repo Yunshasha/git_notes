@@ -34,3 +34,15 @@ git checkout main
 ########## merge current branch to <main>
 git merge <current-branch>
 ```
+
+### delete the branch
+
+```
+// can't delete current branch
+
+######## need check before delete
+git branch -d <branch-name>
+
+######## force delete
+git branch -D <branch-name>
+```
