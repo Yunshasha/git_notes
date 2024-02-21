@@ -58,7 +58,7 @@ git push -u origin main
 ### sometimes you can't push, try, -f cover the remote with current code
 git push -f origin main
 
-### when push, create a link remote(origin) to tell the repo, my local master branch want to connet remote main branch
+### when first push, create a link remote(origin) to tell the repo, my local master branch want to connet remote main branch
 git push --set-upstream origin master : main
 ```
 
