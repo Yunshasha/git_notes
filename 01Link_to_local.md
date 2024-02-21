@@ -1,4 +1,5 @@
-## The basic proceduce <br>   ---  *How to link your project*
+## The basic proceduce <br> --- _How to link your project_
+
 <br />
 
 ### 1st You alreay have local project
@@ -51,11 +52,16 @@ git remote set-url origin <new_remote_repository_url>
 #### f), Push to your remote cloud
 
 ```
+// the full command: git push -u orgin <local-repo-branch>:<remote-repo-branch>, when this two branches have the same name, omit one
 git push -u origin main
 
-# sometimes you can't push, try
-git push -f orgin main
+### sometimes you can't push, try, -f cover the remote with current code
+git push -f origin main
+
+### if remote repo has content, meanwhile you want a link
+git push --set-upstream origin master
 ```
+
 <br />
 
 ### 2nd You haven't create project yet
